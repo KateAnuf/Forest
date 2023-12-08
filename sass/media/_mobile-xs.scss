@@ -1,0 +1,105 @@
+@media (max-width: 599px){
+    .container{
+        width: 320px;
+    }
+    .header-top{
+        width: 100%;
+    }
+     .header-content{
+        width: 100%;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .header-title{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .header-content p{
+        font-size: 18px;
+    }
+
+    /*main*/
+    .main{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .main .container{
+        width: 100%;
+    }
+
+    .main-row{
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+    .main-img{
+        width: auto;
+        height: 150px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .main-header{
+        font-size: 34px;
+    }
+
+     /*footer*/
+
+     .footer{
+        text-align: center;
+     }
+
+     .footer-row{
+        flex-direction: column;
+     }
+     .footer-widgets-wrapper{
+        flex-direction: column;
+        align-items: center; /* по X */
+        margin-bottom: 40px;
+    }
+
+    .footer-widget-services{
+        display: block;
+    }
+
+    .footer-widget{
+        margin-bottom: 40px;
+    }
+
+    .footer-widget-contacts:last-child{
+        margin-bottom: 0;
+    }
+
+    .footer-widget + .footer-widget{   /*отступ соседу справа*/
+        margin-left: 0;
+    }
+
+    .footer-widgets-wrapper > *{
+        width: 100%;
+        
+    }
+
+    .footer-widget-title{
+        font-size: 20px;
+    }
+
+    .footer-widget-title{
+        margin-bottom: 10px;
+    }
+
+    .footer-widget-list{
+        font-size: 16px;
+    }
+    .footer-widget-list li{
+        margin-bottom: 10px;
+    }
+    .footer-widget-contacts li{
+        margin-bottom: 15px;
+    }
+
+    .footer-logo{
+        margin-bottom: 10px;
+    }
+
+
+}

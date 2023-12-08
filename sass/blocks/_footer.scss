@@ -1,0 +1,68 @@
+
+.footer{
+    background-color: #265847;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    color: #FFF;
+}
+.footer a{
+    color: #FFF;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-widgets-wrapper{
+    display: flex;
+    padding-top: 9px;
+}
+
+.footer-copyright{
+    width: 270px;
+}
+.footer-logo{
+    margin-bottom: 26px;
+}
+
+.footer-copyright p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+.footer-copyright p:last-child{
+    margin-bottom: 0;
+}
+
+
+
+.footer-widget + .footer-widget{   /*отступ соседу справа*/
+    margin-left: 30px;
+}
+
+.footer-widget-info{
+    width: 170px;
+}
+
+.footer-widget-services, .footer-widget-contacts{
+    width: 270px;
+}
+
+.footer-widget-title{
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.footer-widget-list{
+    font-size: 18px; 
+}
+
+.footer-widget-list li{ margin-bottom: 15px;}
+
+.footer-widget-list li:last-child{
+    margin-bottom: 0;
+}

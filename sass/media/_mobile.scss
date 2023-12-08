@@ -1,0 +1,95 @@
+@media (max-width: 899px){
+    .container{
+        /*width: 600px;*/
+        width: 100%;
+    }
+    .header-top {
+        width: 100%;
+    }
+    .header-content{
+        width: 100%;
+    }
+    .header-title{
+        font-size: 42px;
+    }
+    .header-content p{
+        font-size: 20px;
+    }
+
+    /*main*/
+
+    .main{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .main-row{
+        flex-direction: row-reverse;
+        margin-bottom: 60px;
+    }
+
+    .main-header{
+        font-size: 42px;
+    }
+    .main-content{
+        width: auto;
+    }
+
+    .main-img{
+        margin-right: 30px;
+        flex-shrink: 0;
+        width: 170px;
+    }
+    .main-img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .main-content-text{
+        font-size: 16px;
+    }
+    .button{
+        padding-right: 30px;
+        padding-left: 30px;
+        
+        height: 46px;
+        line-height: 46px;
+        font-size: 18px;
+
+    }
+
+     /*footer*/
+
+     .footer{
+        
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .footer-row{
+        flex-wrap: wrap;
+    }
+    .footer-copyright{
+        order: 1;
+        width: auto;
+    }
+    .footer-widgets-wrapper{
+        padding-top: 0;
+        width: 100%;
+        margin-bottom: 49px;
+        /*display: flex;*/
+        justify-content: space-between;
+    }
+
+
+    .footer-widget + .footer-widget{   /*отступ соседу справа*/
+        margin-left: 0;
+    }
+
+    .footer-widgets-wrapper > *{
+        /*width:270px; тоже подходит */
+        width: calc(50% - 15px); /*подходит когда ширина контейнера гибкая */
+        
+    }
+
+
+}
